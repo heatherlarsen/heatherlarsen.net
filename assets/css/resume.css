@@ -17,11 +17,6 @@ h4, h5 {
 	font-size: 50px;
 }
 
-.right-col {
-	border-left: 1px solid #ccc;
-	padding-left: 10px;
-}
-
 .blurb {
 	margin: 10px 0 20px 0;
 }
@@ -110,4 +105,20 @@ td strong {
 	border: 2px solid #6dd3cd;
 	color: #333;
 	text-decoration: none;
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+	.right-col {
+		border-left: 1px solid #ccc;
+		padding-left: 10px;
+	}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	.right-col {
+		border-left: 1px solid #ccc;
+		padding-left: 10px;
+	}
 }
