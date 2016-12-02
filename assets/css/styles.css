@@ -24,9 +24,6 @@ a:focus, a:hover {
 .cf {
   clear: both; }
 
-.inside-nav {
-  height: 60px; }
-
 .tagline {
   text-transform: uppercase;
   text-align: center;
@@ -230,6 +227,13 @@ td strong {
 .skills-section .skill-icon {
   text-align: center; }
 
-/* smaller devices */
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .inside-nav {
+    height: 60px; } }
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .inside-nav {
+    height: 60px; } }
 
 /*# sourceMappingURL=styles.css.map */
