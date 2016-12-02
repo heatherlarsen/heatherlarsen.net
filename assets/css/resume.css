@@ -88,3 +88,26 @@ td strong {
 .description {
 	font-size: 12px;
 }
+
+.contact-btn, .download-btn, .back-btn {
+	display: block;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    background: #A8E5E1;
+    color: #333;
+    border: 2px solid transparent;
+    border-radius: 3px;
+    margin: 0 auto 20px auto;
+}
+
+.contact-btn:hover, .download-btn:hover, .back-btn:hover {
+	-webkit-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+  	transition: all 0.2s ease;
+	background: #6dd3cd;
+	border: 2px solid #6dd3cd;
+	color: #333;
+	text-decoration: none;
+}

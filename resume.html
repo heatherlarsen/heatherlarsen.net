@@ -21,6 +21,16 @@
 	<body>
 		<div class="container">
 			<div class="row">
+				<div class="col-lg-2 col-md-2">
+					<a class="back-btn" href="index.html">back to site</a>
+				</div>
+				<div class="col-lg-2 col-md-2">
+					<a class="download-btn" href="assets/pdf/HeatherLarsen_Resume2016.pdf" target="_blank">download pdf</a>
+				</div>
+				<div class="col-lg-8 col-md-8"><!-- intentionally empty --></div>
+			</div>
+
+			<div class="row">
 				<!-- Left Column - Skinny -->
 				<div class="col-lg-3 col-md-3">
 					<div class="left-col">
@@ -210,5 +220,18 @@
 				</div>
 			</div>
 		</div>
+
+		<script>
+			$(document).ready(function() {
+				$('.back-btn').on('click', function() {
+					document.location.href = "/index.html";
+				});
+
+				$('.download-btn').on('click', function() {
+					// download pdf
+					document.location.href = "/assets/pdf/HeatherLarsen_Resume2016.pdf";
+				});
+			});
+		</script>
 	</body>
 </html>
